@@ -1,13 +1,8 @@
 # Resampling
 Resampling
 
-- Cân bằng dữ liệu với các phương pháp Oversampling, Undersampling, Combinsampling
-- Khám phá, đánh giá dữ liệu
-- Tiền xử lý dữ liệu
-    - Xử lý null
-    - Thay đổi kiểu dữ liêu
-    - Xử lý trùng lặp
-    - Xử lý ngoại lai
-- Cân bằng dữ liệu
-- Xây dựng mô hình dự đoán
-- Đánh giá mô hình
+- Performed exploratory data analysis (EDA) and pre-processing on the BRFSS2021 healthcare dataset, including handling missing values, outliers, and duplicates.
+- Applied and compared various imbalanced data handling techniques (oversampling, undersampling, and combination).
+- Trained and fine-tuned machine learning models (Random Forest, AdaBoost, HistGradientBoosting, kNN) for diabetes prediction.
+- Evaluated model performance using ROC AUC, Average Precision, Recall, Precision, and F1-score.
+- Identified HistGradientBoosting model with SMOTEENN technique as the best performing approach.
